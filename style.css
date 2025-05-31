@@ -1,0 +1,278 @@
+body{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.stern1,p{
+    font-style: italic;
+    font-weight:bolder;
+    font-size:60px;
+    margin-left:-10px;
+    margin-top:-25px;
+    color:#b2ff14;
+    padding-bottom:-0.9px;
+    
+}
+
+
+
+
+header.glava {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color:rgb(85, 68, 68);
+  position: relative;
+  color:#b2ff14;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+
+.navigacija a{
+    font-size:15px;
+    margin-left:-18px;
+    color:#b2ff14 !important;
+
+}
+
+.politik>p{
+    font-style:normal;
+    font-weight:500;
+    font-size:40px;
+    padding-top:50px;
+    color:black;
+    align-items:center;
+    margin-left:10px;
+    font-weight:bolder;
+    letter-spacing:0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.artikl{
+    max-width:10000px;
+    margin-left:10px;
+}
+
+.slika-artikl{
+    width:100%;
+    height:200px;
+}
+.nav a{
+    color:#b2ff14;
+}
+.artikl>h3{
+    padding-top:10px;
+    color:rgb(74, 56, 56);
+    font-size:20px;
+    padding-bottom:20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align:center;
+}
+
+.artikl>p{
+    font-size:20px;
+    margin-left:0;
+    font-weight: 800;
+    font-style:normal;
+    color:black;
+    line-height: 25px;
+  
+}
+
+.onama>p{
+    font-size:20px;
+    margin-left:0;
+    padding-top:10px;
+    font-style:normal;
+    color:black;
+    line-height: 25px;
+  
+}
+
+.onama{
+    width:1000px;
+    text-align:left;
+}
+
+.pocetak{
+    text-align:center;
+}
+
+
+
+.slika-artikl2{
+    width:100%;
+    height:200px;
+}
+
+.gesundheit>p{
+    font-style:normal;
+    font-weight:500;
+    font-size:40px;
+    padding-top:90px;
+    color:black;
+    align-items:center;
+    margin-left:10px;
+    font-weight:bolder;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer{
+    font-size:15px;
+    padding-top:130px;
+    text-align:center;
+    max-width:100%;
+    font-style:normal;
+    color:black;
+}
+
+.navigacija a:hover {
+  color:rgb(74, 56, 56) !important;
+}
+
+.clanaknaslov{
+    font-size:30px !important;
+    max-width:1400px;
+}
+
+.vrijeme{
+    font-size:20px;
+    color:rgb(187, 187, 187);
+    float:right;
+}
+
+
+.clanaknaslov>h1{
+    padding-top:10px;
+    font-style:normal;
+    font-size:45px;
+    margin-left:10px;
+    line-height:45px;
+    display: flex;
+    font-weight:bolder;
+}
+.tekstic{
+    padding-top:30px;
+    font-style:normal;
+    font-size:17px;
+    margin-left:15px;
+    line-height:35px;
+    display: flex;
+    color:rgb(95, 95, 95);
+}
+
+
+.slika-clanak{
+    width:980px;
+    height:550px;
+    margin-left:14px;
+
+}
+
+
+
+.vrijeme {
+  font-size: 16px;
+  color: rgb(233, 222, 222)5b5;
+  white-space: nowrap;
+  margin-left: 50px;
+  padding-left:34px;
+}
+
+.clanaksadrzaj>hr{
+    width:980px;
+    margin-left:14px;
+    color:rgb(95, 95, 95);
+    margin-top:10px;
+}
+
+.clanaktekst{
+    padding-top:20px;
+    font-size:17px;
+    width:980px;
+    margin-left:14px;
+    color:rgb(95, 95, 95);
+    text-align:justify;
+    padding-bottom:15px;
+
+}
+
+
+.footerclanak{
+    font-size:15px;
+    padding-top:200px;
+    text-align:center;
+    max-width:100%;
+    font-style:normal;
+}
+
+
+.forma{
+    border: 3px solid black;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #e4d6d6; 
+    margin-top: 20px;
+    width:80%;
+    margin-left:80px;
+    align-items:center;
+}
+
+.forma h2 {
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255, 0, 0);
+    margin-bottom: 20px;
+    font-style:oblique;
+    
+}
+
+.forma label {
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.forma input[type="text"],
+.forma input[type="file"],
+.forma textarea,
+.forma select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.forma input[type="checkbox"] {
+    margin-right: 3px;
+}
+
+.forma input[type="submit"] {
+    background-color: rgb(255,0,0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.forma input[type="submit"]:hover {
+    background-color: #997d7d;
+}
