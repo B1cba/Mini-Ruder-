@@ -8,24 +8,47 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
- <header class="glava py-3">
-  <div class="container">
-    <div class="row align-items-start">
-      <div class="col-auto">
-        <img src="slike/logo.png" alt="Stern logo" class="img-fluid" style="height: 100px;" />
-      </div>
-      <div class="col navigacija">
-        <div class="stern1 fw-bold fs-2 mb-2"><p>MiniRuđer</p></div>
-        <nav>
-          <a href="index.html" class="me-4 text-decoration-none fw-bold text-dark">O nama</a>
-          <a href="#" class="me-4 text-decoration-none fw-bold text-dark">Radionice</a>
-          <a href="#" class="me-4 text-decoration-none fw-bold text-dark">Kontakt</a>
-          <a href="#" class="text-decoration-none fw-bold text-dark">Galerija</a>
-        </nav>
-      </div>
+ <header class="w-100 py-3" style="background-color: #5b4a49;">
+  <div class="container-fluid d-flex align-items-center justify-content-between px-4">
+    <div class="d-flex align-items-center">
+      <img src="./slike/logo.PNG" 
+           alt="Logo" 
+           style="width:60px; height:60px; object-fit:contain; background:#666; border-radius:50%; margin-right:20px;">
+      <span class="fw-bold" style="font-size:2.5rem; color:#d4ff2a; font-style:italic;">
+        MiniRuđer
+      </span>
     </div>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">O nama</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="radionice.html">Radionice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">Galerija</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
+<article>
+  <div class="container-fluid p-0">
+  <div class="video-wrapper mx-auto" style="max-width:900px; margin-top:40px;">
+    <div class="ratio ratio-16x9">
+      <video controls autoplay muted loop>
+        <source src="./slike/minitvz.mp4" type="video/mp4">
+        Vaš preglednik ne podržava video tag.
+      </video>
+    </div>
+  </div>
+</div>
+</article>
+<div class="sredina">
   <article>
     <div class="politik"><p>Koji nam je cilj?</p></div>
     <div class="row">
@@ -101,7 +124,7 @@
     
   </article>
   
-  
+  </div>
 <footer><p class ="footer">Objavljeno 31.5.2025 | ©miniruđer.com | Home</p></footer>
 </body>
 </html>

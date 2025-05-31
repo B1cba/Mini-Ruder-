@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seminarski rad - Stern</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header class="w-100 py-3" style="background-color: #5b4a49;">
+  <div class="container-fluid d-flex align-items-center justify-content-between px-4">
+    <div class="d-flex align-items-center">
+      <img src="./slike/logo.PNG" 
+           alt="Logo" 
+           style="width:60px; height:60px; object-fit:contain; background:#666; border-radius:50%; margin-right:20px;">
+      <span class="fw-bold" style="font-size:2.5rem; color:#d4ff2a; font-style:italic;">
+        MiniRuđer
+      </span>
+    </div>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">O nama</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="radionice.html">Radionice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">Galerija</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="rasporeddiv">
+    <p class="raspored">Raspored radionica</p>
+</div>
+<section class="radionice-section my-5">
+  <div class="container">
+    <div class="row">
+      <!-- Prošle radionice -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h2>
+              <a class="text-success text-decoration-none" 
+                 data-bs-toggle="collapse" 
+                 href="#prosleRadionice" 
+                 role="button" 
+                 aria-expanded="false" 
+                 aria-controls="prosleRadionice">
+                Prošle radionice
+              </a>
+            </h2>
+            <div class="collapse" id="prosleRadionice">
+              <ul class="list-unstyled mt-3">
+                <li class="radionica-row">
+                  <img class="radionica-slika" src="slike/robotika.jpg" alt="Robotika ikona">
+                  <div class="radionica-info">
+                    <strong>Robotika za početnike</strong>
+                    <div class="radionica-datum">Održano: 15.3.2025.</div>
+                  </div>
+                  <a href="robotika.html">
+                    <button class="saznajvise">Saznajte više</button>
+                  </a>
+                </li>
+                <li class="radionica-row">
+                  <img class="radionica-slika" src="slike/uvod.jpg" alt="Uvod u programiranje ikona">
+                  <div class="radionica-info">
+                    <strong>Uvod u programiranje</strong>
+                    <div class="radionica-datum">Održano: 20.4.2025.</div>
+                  </div>
+                  <a href="uvod.html">
+                    <button class="saznajvise">Saznajte više</button>
+                  </a>
+                </li>
+                <!-- Dodaj još prošlih radionica po potrebi -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Buduće radionice -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h2>
+              <a class="text-primary text-decoration-none" 
+                 data-bs-toggle="collapse" 
+                 href="#buduceRadionice" 
+                 role="button" 
+                 aria-expanded="false" 
+                 aria-controls="buduceRadionice">
+                Buduće radionice
+              </a>
+            </h2>
+            <div class="collapse" id="buduceRadionice">
+              <ul class="list-unstyled mt-3">
+                <li class="radionica-row">
+                  <img class="radionica-slika" src="slike/elektronika.jpg" alt="Napredna elektronika ikona">
+                  <div class="radionica-info">
+                    <strong>Napredna elektronika</strong>
+                    <div class="radionica-datum">Planirano: 10.6.2025.</div>
+                  </div>
+                  <a href="elektronika.html">
+                    <button class="saznajvise">Saznajte više</button>
+                  </a>
+                </li>
+                <li class="radionica-row">
+                  <img class="radionica-slika" src="slike/web stranice.jpg" alt="Izrada web stranice ikona">
+                  <div class="radionica-info">
+                    <strong>Izrada web stranica</strong>
+                    <div class="radionica-datum">Planirano: 25.7.2025.</div>
+                  </div>
+                  <a href="webstranice.html">
+                    <button class="saznajvise">Saznajte više</button>
+                  </a>
+                </li>
+                <!-- Dodaj još budućih radionica po potrebi -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p class="footer">Objavljeno 31.5.2025 | ©miniruđer.com | Home</p>
+</footer>
+</body>
+</html>

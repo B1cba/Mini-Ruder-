@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seminarski rad - Stern</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header class="w-100 py-3" style="background-color: #5b4a49;">
+  <div class="container-fluid d-flex align-items-center justify-content-between px-4">
+    <div class="d-flex align-items-center">
+      <img src="./slike/logo.PNG" 
+           alt="Logo" 
+           style="width:60px; height:60px; object-fit:contain; background:#666; border-radius:50%; margin-right:20px;">
+      <span class="fw-bold" style="font-size:2.5rem; color:#d4ff2a; font-style:italic;">
+        MiniRuđer
+      </span>
+    </div>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">O nama</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="radionice.html">Radionice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" style="color:#d4ff2a;" href="#">Galerija</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="radionica-kartica mb-4">
+  <img class="radionica-kartica-slika" src="slike/uvod.jpg" alt="Uvod u programiranje">
+  <div class="radionica-kartica-sadrzaj">
+    <div class="radionica-kartica-naslov">Uvod u programiranje</div>
+    <div class="radionica-kartica-opis">
+      Prvi koraci u svijetu programiranja! Kroz zanimljive zadatke naučit ćete osnovne koncepte programiranja, logičko razmišljanje i pisanje jednostavnih programa.
+      <br>
+      <span>
+        Radionica je namijenjena potpunim početnicima. Radit ćemo u vizualnim i tekstualnim programskim jezicima (Scratch, Python) i razvijati algoritamski način razmišljanja.
+      </span>
+    </div>
+    <div class="radionica-kartica-datum">Datum održavanja: 20.4.2025.</div>
+    <button type="button" class="radionica-kartica-prijava-btn" data-bs-toggle="modal" data-bs-target="#prijavaModalUvod">Prijavi se</button>
+  </div>
+</div>
+<!-- Modal za uvod u programiranje -->
+<div class="modal fade" id="prijavaModalUvod" tabindex="-1" aria-labelledby="prijavaModalLabelUvod" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="prijavaModalLabelUvod">Prijava za Uvod u programiranje</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zatvori"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="imeUvod" class="form-label">Ime i prezime</label>
+            <input type="text" class="form-control" id="imeUvod" required>
+          </div>
+          <div class="mb-3">
+            <label for="emailUvod" class="form-label">E-mail adresa</label>
+            <input type="email" class="form-control" id="emailUvod" required>
+          </div>
+          <div class="mb-3">
+            <label for="telefonUvod" class="form-label">Broj telefona</label>
+            <input type="tel" class="form-control" id="telefonUvod" required>
+          </div>
+          <button type="submit" class="btn btn-success btn-sm">Pošalji prijavu</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer><p class ="footer">Objavljeno 31.5.2025 | ©miniruđer.com | Home</p></footer>
+</body>
+</html>

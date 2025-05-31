@@ -1,11 +1,16 @@
 body{
-    max-width:1000px;
+    max-width:100%;
     margin:0 auto;
 }
 
 .logo {
   display: flex;
   align-items: center;
+}
+.sredina{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .stern1,p{
     font-style: italic;
@@ -17,7 +22,9 @@ body{
     padding-bottom:-0.9px;
     
 }
-
+.video-wrapper {
+  margin-top: 40px; 
+}
 
 
 
@@ -275,4 +282,136 @@ header.glava {
 
 .forma input[type="submit"]:hover {
     background-color: #997d7d;
+}
+footer{
+    margin-top: 50px;
+    background-color: grey;
+}
+.rasporeddiv{
+    margin-top: 40px;
+    margin-left:40%;
+}
+.raspored{
+    font-size: 30px;
+    font: 500;
+    color: black;
+}
+.saznajvise {
+  padding: 6px 18px;
+  font-size: 0.98em;
+  border-radius: 18px;
+  background: linear-gradient(90deg, #008cff 0%, #00e0ff 100%);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+  white-space: nowrap;
+}
+.saznajvise:hover {
+  background: linear-gradient(90deg, #00e0ff 0%, #008cff 100%);
+  transform: scale(1.04);
+}
+.radionica-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+  gap: 18px;
+}
+
+.radionica-slika {
+  width: 100px;      /* prilagodi po želji */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.radionica-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 160px;
+  margin-right: 20px;
+}
+
+.radionica-info strong {
+  font-size: 1.08em;
+}
+
+.radionica-datum {
+  font-size: 0.97em;
+  color: #444;
+  margin-top: 2px;
+}
+.radionica-kartica {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 24px 24px 24px 24px;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.radionica-kartica-slika {
+  width: 250px;  /* Povećana slika */
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+  flex-shrink: 0;
+}
+
+.radionica-kartica-sadrzaj {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 0; /* Pomak teksta prema vrhu */
+}
+
+.radionica-kartica-naslov {
+  font-size: 1.8em;  /* Povećan naslov */
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.radionica-kartica-opis {
+  font-size: 1.2em;  /* Povećan opis */
+  color: #444;
+  margin-bottom: 14px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 600px;
+}
+
+.radionica-kartica-datum {
+  font-size: 1.05em;  /* Povećan datum */
+  color: #888;
+  margin-top: auto; /* Datum pri dnu */
+  margin-bottom: 14px;
+}
+
+.radionica-kartica-prijava-btn {
+  padding: 6px 24px;      /* manji gumb, ali i dalje dovoljno velik za klik */
+  font-size: 1em;         /* nešto manje od prethodnog, ali i dalje čitljivo */
+  border-radius: 22px;
+  background: linear-gradient(90deg, #00c853 0%, #b2ff59 100%);
+  color: #222;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,200,83,0.13);
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 12px;
+  cursor: pointer;
+  min-width: 120px;
+  max-width: 220px;
+}
+.radionica-kartica-prijava-btn:hover {
+  background: linear-gradient(90deg, #b2ff59 0%, #00c853 100%);
+  color: #111;
+  transform: scale(1.04);
 }
