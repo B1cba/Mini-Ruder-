@@ -50,6 +50,36 @@
         Kroz zabavne zadatke i savremene alate, otkrit ćeš kako boje, oblici i tekst mogu zajedno stvoriti nešto posebno.
       </span>
     </div>
-    
+    <div class="radionica-kartica-datum">Datum održavanja: 10.6.2025.</div>
+    <button type="button" class="radionica-kartica-prijava-btn" data-bs-toggle="modal" data-bs-target="#prijavaModaGrafika">Prijavi se</button>
+  </div>
+</div>
+<div class="modal fade" id="prijavaModalGrafika" tabindex="-1" aria-labelledby="prijavaModalLabelGrafika" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="prijavaModalLabelGrafika">Prijava za Grafički dizajn</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zatvori"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="imeGrafika" class="form-label">Ime i prezime</label>
+            <input type="text" class="form-control" id="imeGrafika" required>
+          </div>
+          <div class="mb-3">
+            <label for="emailGrafika" class="form-label">E-mail adresa</label>
+            <input type="email" class="form-control" id="emailGrafika" required>
+          </div>
+          <div class="mb-3">
+            <label for="telefonGrafika" class="form-label">Broj telefona</label>
+            <input type="tel" class="form-control" id="telefonGrafika" required>
+          </div>
+          <button type="submit" class="btn btn-success btn-sm">Pošalji prijavu</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
