@@ -44,12 +44,7 @@ header.glava {
 }
 
 
-.navigacija a{
-    font-size:15px;
-    margin-left:-18px;
-    color:#b2ff14 !important;
 
-}
 
 .politik>p{
     font-style:normal;
@@ -140,9 +135,7 @@ header.glava {
 .footer{
     margin-top:50px;
     font-size:15px;
-    margin-left:0.5px;
     padding-bottom:20px;
-
     padding:50px;
     text-align:center;
     max-width:100%;
@@ -153,15 +146,14 @@ header.glava {
 
 }
 
-
 .footer,p{
-  font-size:25px;
-  margin-top:50px;
-  margin-left:50p;
+  width:100%;
+  font-size:20px;
+  margin-top:45px;
   text-align:left;
 }
 
-.navigacija a:hover {
+.nav a:hover {
   color:rgb(74, 56, 56) !important;
 }
 
