@@ -415,3 +415,10 @@ footer{
   color: #111;
   transform: scale(1.04);
 }
+.galerija{
+  margin-top: 40px;
+  margin-left:40%;
+  font-size: 30px;
+  font: 500;
+  color: black;
+}
