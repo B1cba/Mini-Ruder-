@@ -113,8 +113,14 @@ header.glava {
     text-align:center;
 }
 
+.radionica-kartica-sadrzaj{
+  padding-bottom:170px;
+}
 
 
+.radionice-section{
+  padding-bottom:320px;
+}
 .slika-artikl2{
     width:100%;
     height:200px;
@@ -154,6 +160,7 @@ ul,li{
   text-align: center;
 }
 
+
 .footernav .nav-link {
   color: #d4ff2a;
   font-size: 18px;
@@ -164,6 +171,40 @@ ul,li{
   text-decoration: none;
 }
 .footernav .nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.footerradionica {
+  margin-top: 50px;
+
+
+  text-align: center;
+  max-width: 100%;
+  font-style: normal;
+  color: #b2ff14;
+  background-color: rgb(85, 68, 68);
+}
+
+.footerradionica p {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.footernavradionica .nav-link {
+  color: #d4ff2a;
+  font-size: 18px;
+}
+
+.footernavradionica a:hover {
+  color:rgb(74, 56, 56) !important;
+  text-decoration: none;
+}
+.footernavradionica .nav-link:hover {
   text-decoration: underline;
 }
 
