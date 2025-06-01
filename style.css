@@ -18,7 +18,7 @@ body{
     font-size:60px;
     margin-left:-10px;
     margin-top:-25px;
-    color:#b2ff14;
+    color: #b2ff14;
     padding-bottom:-0.9px;
     
 }
@@ -416,9 +416,13 @@ footer{
   transform: scale(1.04);
 }
 .galerija{
-  margin-top: 40px;
-  margin-left:40%;
-  font-size: 30px;
-  font: 500;
-  color: black;
+font-style:normal;
+    font-weight:500;
+    font-size:40px;
+    padding-top:50px;
+    color:black;
+    text-align:center;
+    font-weight:bolder;
+    letter-spacing:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
