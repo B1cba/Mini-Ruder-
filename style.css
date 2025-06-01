@@ -73,6 +73,7 @@ header.glava {
 .slika-artikl{
     width:100%;
     height:200px;
+    margin:10px;
 }
 .nav a{
     color:#b2ff14;
@@ -425,4 +426,14 @@ font-style:normal;
     font-weight:bolder;
     letter-spacing:0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slika-galerija{
+    width:110%;
+    height:200px;
+    margin:10px;
+}
+.artikl-galerija{
+    max-width:10000px;
+    margin-left:10px;
 }
