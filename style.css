@@ -138,12 +138,27 @@ header.glava {
 }
 
 .footer{
+    margin-top:50px;
     font-size:15px;
-    padding-top:130px;
+    margin-left:0.5px;
+    padding-bottom:20px;
+
+    padding:50px;
     text-align:center;
     max-width:100%;
     font-style:normal;
     color:black;
+    color:#b2ff14;
+    background-color:rgb(85, 68, 68);
+
+}
+
+
+.footer,p{
+  font-size:25px;
+  margin-top:50px;
+  margin-left:50p;
+  text-align:left;
 }
 
 .navigacija a:hover {
@@ -284,10 +299,7 @@ header.glava {
 .forma input[type="submit"]:hover {
     background-color: #997d7d;
 }
-footer{
-    margin-top: 50px;
-    background-color: grey;
-}
+
 .rasporeddiv{
     margin-top: 40px;
     margin-left:40%;
@@ -344,6 +356,7 @@ footer{
   color: #444;
   margin-top: 2px;
 }
+
 .radionica-kartica {
   display: flex;
   align-items: flex-start;
