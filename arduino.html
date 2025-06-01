@@ -50,6 +50,37 @@
         Kroz zabavne zadatke, otkrit ćeš kako elektronika može biti kreativna i korisna.
       </span>
     </div>
-    
+    <div class="radionica-kartica-datum">Datum održavanja: 4.6.2025.</div>
+    <button type="button" class="radionica-kartica-prijava-btn" data-bs-toggle="modal" data-bs-target="#prijavaModaArduino">Prijavi se</button>
+  </div>
+</div>
+<div class="modal fade" id="prijavaModalArduino" tabindex="-1" aria-labelledby="prijavaModalLabelArduino" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="prijavaModalLabelArduino">Prijava za Arduino</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zatvori"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="imeArduino" class="form-label">Ime i prezime</label>
+            <input type="text" class="form-control" id="imeArduino" required>
+          </div>
+          <div class="mb-3">
+            <label for="emailArduino" class="form-label">E-mail adresa</label>
+            <input type="email" class="form-control" id="emailArduino" required>
+          </div>
+          <div class="mb-3">
+            <label for="telefonArduino" class="form-label">Broj telefona</label>
+            <input type="tel" class="form-control" id="telefonArduino" required>
+          </div>
+          <button type="submit" class="btn btn-success btn-sm">Pošalji prijavu</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
