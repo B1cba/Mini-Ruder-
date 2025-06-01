@@ -114,10 +114,19 @@ header.glava {
 }
 
 .radionica-kartica-sadrzaj{
-  padding-bottom:170px;
+  padding-bottom:150px;
 }
 
+.radionica-kartica-sadrzaj-elektronika{
+  padding-bottom:90px;
+}
 
+.radionica-kartica-sadrzaj-web{
+  padding-bottom:90px;
+}
+.radionica-kartica{
+  margin-top:90px;
+}
 .radionice-section{
   padding-bottom:320px;
 }
@@ -131,9 +140,7 @@ ul,li{
  
 }
 
-.nalodazecerad a{
-  color:red !important;
-}
+
 .gesundheit>p{
     font-style:normal;
     font-weight:500;
@@ -181,8 +188,6 @@ ul,li{
 
 .footerradionica {
   margin-top: 50px;
-
-
   text-align: center;
   max-width: 100%;
   font-style: normal;
@@ -209,6 +214,43 @@ ul,li{
   text-decoration: none;
 }
 .footernavradionica .nav-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.footerweb {
+  text-align: center;
+  max-width: 100%;
+  padding-bottom:30px;
+  padding-top:30px;
+  font-style: normal;
+  color: #b2ff14;
+  background-color: rgb(85, 68, 68);
+}
+
+.footerweb p {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.footernavweb .nav-link {
+  color: #d4ff2a;
+  font-size: 18px;
+}
+
+.footernawweb a:hover {
+  color:rgb(74, 56, 56) !important;
+  text-decoration: none;
+}
+.footernawweb .nav-link:hover {
   text-decoration: underline;
 }
 
