@@ -130,6 +130,10 @@ ul,li{
   margin-right:25px;
  
 }
+
+.nalodazecerad a{
+  color:red !important;
+}
 .gesundheit>p{
     font-style:normal;
     font-weight:500;
