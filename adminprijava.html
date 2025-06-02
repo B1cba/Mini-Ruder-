@@ -37,3 +37,60 @@
     </nav>
   </div>
 </header>
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="border p-5 rounded shadow" style="max-width: 400px; width: 100%;">
+      <h2 class="text-center mb-4" style="color:#5b4a49;">Prijava Administrator</h2>
+      <form id="loginForm">
+        <div class="mb-3">
+          <label for="username" class="form-label">Korisničko ime</label>
+          <input type="text" class="form-control" id="username" placeholder="Unesite korisničko ime" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Lozinka</label>
+          <input type="password" class="form-control" id="password" placeholder="Unesite lozinku" required>
+        </div>
+        <button class="btn px-4 py-2 fw-bold" style="background-color: #666; color: white; border: none;">Prijavi se</button>
+        <p id="error" class="mt-3 text-center" style="display:none;">Neispravno korisničko ime ili lozinka.</p>
+      </form>
+    </div>
+  </div>
+  <script>
+    document.getElementById("equipment-request-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const workshopName = "AI za početnike";
+      localStorage.setItem("popupMessage", `Uspješno ste pripremili i prijavili radionicu, ${workshopName}!`);
+      window.location.href = "dashboard.html";
+    });
+  </script>
+
+<footer class="footer">
+  <p>Objavljeno 31.5.2025 | ©miniruđer.com | O nama</p>
+  <nav class="footernav">
+    <ul>
+      <li>
+        <a class="nav-link px-3" style="color:#d4ff2a;" href="https://www.facebook.com/?locale=hr_HR">
+          <i class="fab fa-facebook-f" style="margin-right: 8px;"></i>Facebook
+        </a>
+      </li>
+      <li>
+        <a class="nav-link px-3" style="color:#d4ff2a;" href="https://www.instagram.com/minitvz/">
+          <i class="fab fa-instagram" style="margin-right: 8px;"></i>Instagram
+        </a>
+      </li>
+      <li>
+        <a class="nav-link px-3" style="color:#d4ff2a;" href="https://www.linkedin.com/in/mia-carapina">
+          <i class="fab fa-linkedin-in" style="margin-right: 8px;"></i>LinkedIN
+        </a>
+      </li>
+      <li>
+        <a class="nav-link px-3" style="color:#d4ff2a;" href="https://x.com/">
+          <i class="fab fa-twitter" style="margin-right: 8px;"></i>Twitter
+        </a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+
+</body>
+</html>
