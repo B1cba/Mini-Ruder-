@@ -55,6 +55,14 @@
       </form>
     </div>
   </div>
+  <script>
+    document.getElementById("equipment-request-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const workshopName = "AI za početnike";
+      localStorage.setItem("popupMessage", `Uspješno ste pripremili i prijavili radionicu, ${workshopName}!`);
+      window.location.href = "dashboard.html";
+    });
+  </script>
 <footer class="footer">
   <p>Objavljeno 31.5.2025 | ©miniruđer.com | Radionice</p>
   <nav class="footernav">
