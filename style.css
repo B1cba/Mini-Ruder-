@@ -162,7 +162,7 @@ ul,li{
     font-family: 'Oswald', sans-serif;
 }
 
-.footer {
+.footerindex {
   margin-top: 50px;
   padding: 50px 20px;
   text-align: center;
@@ -172,7 +172,7 @@ ul,li{
   background-color: rgb(85, 68, 68);
 }
 
-.footer p {
+.footerindex p {
   width: 100%;
   font-size: 20px;
   margin-top: 20px;
@@ -262,6 +262,34 @@ ul,li{
 .footernawweb .nav-link:hover {
   text-decoration: underline;
 }
+
+
+
+.footerindexprijava {
+  margin-top: 50px;
+  padding: 55px 35px;
+  text-align: center;
+  max-width: 100%;
+  font-style: normal;
+  color: #b2ff14;
+  background-color: rgb(85, 68, 68);
+}
+
+.footerindexprijava p {
+  margin-top:100px;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.divovi{
+  padding-bottom:130px;
+  margin-top:210px;
+}
+
 
 .nav a:hover {
   color:rgb(74, 56, 56) !important;
@@ -421,7 +449,7 @@ ul,li{
   font-weight: 600;
   transition: background 0.3s, transform 0.2s;
   white-space: nowrap;
-  margin-left: -50px;
+  margin-left: -90px;
 }
 
 .saznajvise:hover {
@@ -432,7 +460,8 @@ ul,li{
   display: flex;
   align-items: center;
   margin-bottom: 22px;
-  gap: 18px;
+  gap: 18px;  
+
 }
 
 .radionica-slika {
@@ -637,6 +666,10 @@ font-style:normal;
   margin: 20px 0;
   color: #999;
   font-style: italic;
+}
+
+.card-body{
+  max-width:100%;
 }
 
 .card-footer {
